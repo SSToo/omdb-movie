@@ -1,0 +1,72 @@
+.header{
+    background-color: rgb(5, 44, 78);
+    font-size: 2rem;
+    color: white;
+    width: 100%;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.search{
+    display:flex;
+    margin: 2em;
+    /* align-items: center; */
+    justify-content: center;
+}
+.input{
+    width: 400px;
+    padding: 0.4em;
+    margin-right: 0.4em;
+    border-radius: 0.2em;
+    border: none;
+    background-color: rgb(236, 236, 236);
+}
+
+.btn{
+    background-color: rgb(5, 44, 78);
+    color: white;
+    border: none;
+    border-radius: 0.2em;
+}
+.film{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pit{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+.title{
+    width: 180px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 0.5em;
+}
+.year{
+    font-size: 0.6rem;
+    margin-top: 1em;
+}
+
+.films{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+    align-items: flex-start; 
+    align-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.kong{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.deftext{
+    text-align: center;
+}
